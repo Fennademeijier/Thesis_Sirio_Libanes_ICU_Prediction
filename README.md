@@ -7,4 +7,6 @@ I aim to build a random forest model that uses patient data to effectively predi
 
 The 1.0 notebook that is uploaded fills missing data using foreward and backward fill. The 2.0 notebook uses multiple imputation to fill patient's missing data.
 
-#TO BE CONTINUED
+Judging by the evaluation criteria, forward and backward fill proves to be superior over iteratively imputing missing data. The final model has a PR AUC score of 0.84 and a recall score of 75.5%, and SHAP analysis identifies respiratory rate, age percentile, PCR, diastolic blood pressure, lymphocyte count, missingness,  urea, creatinine and lactate dehydrogenase as the top predictors of ICU  admission. In clinical settings, this model could be utilized as a prioritization tool,  which in turn aids resource allocation and ultimately reduces mortality and length of ICU stay. This study underscores the added value of the appliance of machine learning models in the COVID-19 pandemic. In the future, more research is warranted to to more accurately identify local and globalpredictors of ICU admission,  given the dynamical nature of the SARS-CoV-2 virus.
+
+
